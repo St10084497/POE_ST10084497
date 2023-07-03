@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Timer"
+
+    android:background="@drawable/appback"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Your Study Session"
+        android:textSize="38dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+
+        android:id="@+id/tvTime"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/count"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/splash" />
+
+    <TextView
+
+        android:id="@+id/tvlapTime"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:text="@string/task_done_and_time_taken"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnstartStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="startStopWatch"
+         android:layout_gravity="center"
+        android:text="@string/start" />
+
+    <Button
+
+        android:id="@+id/btnReset"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:onClick= "resetWatch"
+        android:layout_gravity="center"
+        android:text="@string/reset" />
+
+
+
+
+    <Button
+
+        android:id="@+id/btnLap"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:onClick="lapButton"
+        android:visibility="invisible"
+        android:text="@string/task_complete"
+        android:layout_gravity="center"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+    <com.github.mikephil.charting.charts.LineChart
+
+        android:id="@+id/chart"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="256dp" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">StudyTime</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="about">About</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="timer">Timer</string>
+    <string name="camera">Camera</string>
+    <string name="information_about_the_study_time_app">Information About the Study Time app</string>
+    <string name="todo">todo</string>
+    <string name="picture">Picture</string>
+    <string name="capture">Capture</string>
+    <string name="cancel">Cancel</string>
+    <string name="Login">Login</string>
+    <string name="lap">Lap</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="count">Count</string>
+    <string name="dataset">Dataset</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="start_date">Start Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_date">End Date</string>
+    <string name="end_time">End Time</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="submit">"Submit "</string>
+    <string name="e_mail">E_mail</string>
+    <string name="registe">Register</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="cncl">Cancel</string>
+    <string name="create_task">Create Task</string>
+    <string name="task_complete">Task Complete</string>
+    <string name="task_done_and_time_taken">Task Done and Time Taken</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="About_Description">Welcome to Study Time - your comprehensive solution to time management when studying! With Study Time, you can easily and effectively manage your study schedule, enabling you to track and monitor your study progress. Our app makes time management easy by allowing you to use our stopwatch feature to monitor your studying time, and by giving you the ability to login and register in order to access our app\'s full range of features. Our application allows users to create new tasks, which you can then track to ensure you are maintaining your study schedule. Whether you\'re a student, a working professional, or just someone looking to improve your productivity, Study Time can help. Our app has been designed with the needs of our users in mind, providing user-friendly and intuitive interface, making it easy to navigate and use. Our app is also completely free, so you can start using it without worrying about any hidden costs or fees. At Study Time, we are committed to providing our users with the best experience possible. We understand that time management is vital, and with Study Time, we hope to make your studying experience less stressful and more productive. Our developer, Sashlyn Naidu, is dedicated and passionate about user-focused app design. If you have any questions, feedback, or concerns, please don\'t hesitate to reach out to Sashlyn via email at St10084497@vcconnect.edu.za. Thank you for choosing Study Time, and we hope you find our app useful. </string>
+    <string name="read_data">read_data</string>
+</resources>

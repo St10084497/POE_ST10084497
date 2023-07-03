@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+
+            android:icon="@drawable/login"
+
+            android:title="@string/login" />
+
+        <item
+            android:id="@+id/nav_dataset"
+
+            android:icon= "@drawable/baseline_create_24"
+
+            android:title="@string/create_task" />
+
+
+
+        <item
+            android:id="@+id/nav_timer"
+
+            android:icon="@drawable/timer"
+
+            android:title="@string/timer" />
+        <item
+            android:id="@+id/nav_view"
+
+            android:icon="@drawable/baseline_view_list_24"
+
+            android:title="View" />
+
+
+        <item
+            android:id="@+id/nav_about"
+
+            android:icon="@drawable/abt"
+
+            android:title="@string/about" />
+
+
+
+
+
+
+    </group>
+</menu>
